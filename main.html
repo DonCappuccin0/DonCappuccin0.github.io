@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function chose(){
+            var howMany = document.getElementById("input").value;
+            var brawlers = ["Bodvar", "Cassidy","Orion","Lord Vraxx","Gnash","Queen Nai","Hattori","Sir Roland","Scarlet","Thatch","Ada","Sentinel","Lucien","Teros","Brynn","Asuri","Barraza","Ember","Azoth","Koji","Ulgrim","Diana","Jhala","Kor","Wu Shang","Val","Ragnir","Cross","Mirage","Nix","Mordex","Yumiko","Artemis","Caspian","Sidra","Xull","Kaya","Isaiah","Jiro","Lin Fei","Zariel","Rayman","Dusk","Fait","Thor","Petra","Vector","Volkov","Onyx","Jaeyun","Mako","Magyar","Reno","Munin","Munin","Arcadia","Ezio","Tezca"];
+
+            var str = ""
+            for(var i = 0;i<howMany;i++){
+                str += "\n \n" + brawlers[Math.floor(Math.random()*brawlers.length)] 
+            }
+
+            document.getElementById("print").innerHTML = str;
+        }
+
+    </script>
+    
+    <center>
+        <fieldset>
+            <legend>Input and Output</legend><br>
+            <input type="number" id="input" placeholder="Write here"></input><br><br>
+            <button onclick="chose()">LEsgoo</button><br><br>
+            <p id="print"></p>
+            
+        </fieldset>
+    </center>
+
+    
+</body>
+</html>
