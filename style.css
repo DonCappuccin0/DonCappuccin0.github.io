@@ -2,11 +2,14 @@ p {
     font-family: Trebuchet MS;
     font-size: 16px;
     line-height: 1.5;
-    text-align: center;
     color: #000000;
   }
 
 legend{
+    color: white ;
+    font-style: bold;
+    outline-width: 5px;
+    outline-color: #000000;
     font-family: Impact;
     font-size: 20px;
 }  
