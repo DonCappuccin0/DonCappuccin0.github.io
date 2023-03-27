@@ -6,10 +6,10 @@ p {
   }
 
 legend{
-    color: white ;
+    color: black ;
     font-style: bold;
-    outline-width: 5px;
-    outline-color: #000000;
+    outline:auto;
+    outline-color: black;
     font-family: Impact;
     font-size: 20px;
 }  
