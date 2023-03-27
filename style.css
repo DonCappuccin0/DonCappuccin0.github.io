@@ -1,0 +1,12 @@
+p {
+    font-family: Trebuchet MS;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left;
+    color: #000000;
+  }
+
+legend{
+    font-family: Impact;
+    font-size: 20px;
+}  
